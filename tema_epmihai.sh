@@ -38,3 +38,4 @@ echo "Sum of even numbers: $sum_even"
 echo "Sum of odd numbers: $sum_odd"
 echo "Max number: $max"
 echo "Min number: $min"
+# Done
