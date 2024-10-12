@@ -1,0 +1,10 @@
+---
+- name: Deploy portfolio application
+  hosts: localhost
+  become: yes  # Gain elevated privileges
+  tasks:
+    - name: Copy index.html to the web server
+      copy:
+        src: files/index.html
+        dest: /usr/share/nginx/html/index.html
+
